@@ -25,7 +25,7 @@ Este projeto é uma API simples utilizando [FastAPI](https://fastapi.tiangolo.co
 
 3. Instale as dependências:
    ```sh
-   pip install fastapi uvicorn
+   pip install -r requirements.txt
    ```
 
 ## Como executar
