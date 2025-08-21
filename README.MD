@@ -33,7 +33,7 @@ Este projeto é uma API simples utilizando [FastAPI](https://fastapi.tiangolo.co
 Execute o comando abaixo na pasta `src`:
 
 ```sh
-python app.py
+uvicorn app:app --host 0.0.0.0 --port 7090 --reload
 ```
 
 A API estará disponível em [http://localhost:7090](http://localhost:7090).
